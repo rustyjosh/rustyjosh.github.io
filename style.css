@@ -116,7 +116,7 @@ h2 {
   font-size: 1.2em;
   font-weight: 600;
   color: var(--text);
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 
 /* Post lists */
