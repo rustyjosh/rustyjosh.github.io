@@ -1,0 +1,131 @@
+/* Reset & base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 17px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  color: #1a1a1a;
+  background: #ffffff;
+  line-height: 1.6;
+}
+
+/* Main column */
+main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 6rem 1.5rem 8rem;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 3rem;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+header nav a {
+  font-size: 0.95rem;
+  color: #6b6b6b;
+}
+
+/* Bio */
+.bio {
+  margin-bottom: 3.5rem;
+}
+
+.bio p {
+  margin-bottom: 1rem;
+  color: #2a2a2a;
+}
+
+/* Sections */
+section {
+  margin-bottom: 2.75rem;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 0.9rem;
+  letter-spacing: -0.005em;
+}
+
+/* Post lists */
+.post-list {
+  list-style: none;
+}
+
+.post-list li {
+  margin-bottom: 0.5rem;
+}
+
+/* Links */
+a {
+  color: #1a1a1a;
+  text-decoration: underline;
+  text-decoration-color: #c9c9c9;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  transition: text-decoration-color 0.15s ease;
+}
+
+a:hover {
+  text-decoration-color: #1a1a1a;
+}
+
+/* Post page styling (for individual posts) */
+article {
+  max-width: 640px;
+}
+
+article h1 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.015em;
+}
+
+article .date {
+  color: #8a8a8a;
+  font-size: 0.9rem;
+  margin-bottom: 2.5rem;
+}
+
+article p {
+  margin-bottom: 1.25rem;
+}
+
+article h2,
+article h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  main {
+    padding: 3.5rem 1.25rem 5rem;
+  }
+
+  html {
+    font-size: 16px;
+  }
+}
