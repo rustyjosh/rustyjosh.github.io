@@ -72,13 +72,13 @@ a:hover {
 
 /* Sticky header */
 header {
-  padding: 0 1.5rem;
+  /* full-width container, no padding */
 }
 
 .header-inner {
   max-width: 38.75rem;
   margin: 0 auto;
-  padding: 3.5rem 0 1rem;
+  padding: 3.5rem 1.5rem 1rem;
 }
 
 header h1 {
